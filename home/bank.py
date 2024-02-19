@@ -50,12 +50,7 @@ with open("users.txt", "w") as file:
     file.write(f"Property2: {control.property2}\n")
     file.write(f"Property3: {control.property3}\n")
 
-# Code for "eni.py" file:
-import turtle
 
-# Turtle drawing code here
-
-# Code to read and print text file content
 with open("users.txt", "r") as file:
     content = file.read()
     print(content)
